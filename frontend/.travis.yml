@@ -1,4 +1,5 @@
 language: node_js
+node_js: node
 sudo: required
 services:
   - docker
@@ -8,4 +9,4 @@ before_install:
 
 
 script:
-  - docker run -e CI=true bamas/docker-react npm test
+  - docker run -e CI=true bamas/docker-react npm run test
