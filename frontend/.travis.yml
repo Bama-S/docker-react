@@ -1,7 +1,5 @@
 language: generic
 
-node_js: node
-
 sudo: required
 services:
   - docker
