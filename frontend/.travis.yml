@@ -1,10 +1,10 @@
 language: node_js
-<<<<<<< HEAD
+
 node_js:
   - 7
 =======
 node_js: node
->>>>>>> 9002df02ea974a05fe4b50d691ae03d89393923f
+
 sudo: required
 services:
   - docker
